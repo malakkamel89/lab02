@@ -1,12 +1,12 @@
 alert("welcome to jordan")
 
-var customerAge = prompt("Please enter your age", "");
+var customerAge = prompt("Please enter your age");
+customerAge = parseInt(customerAge)
 
-var customerAge = "18";
-if (customerAge < 18) { type
-   "Good day";
-} else { type
-  = "Good evening";
+if (customerAge < 18) {
+  alert("Good day");
+} else {
+  alert("Good evening")
 }
 
 
