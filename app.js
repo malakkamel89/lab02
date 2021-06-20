@@ -8,6 +8,7 @@ while (customerAge < 18) {
   alert("your age under 18 please enter yourage again")
   customerAge = prompt("Please enter your age");
   customerAge = parseInt(customerAge)
+<<<<<<< HEAD
 }
 
 var numofvisits = 2;
@@ -45,6 +46,18 @@ for(var i=0;i<rate;i++){
 
 
 
+=======
+}
+
+var numofvisits = 2;
+numofvisits = prompt("Please number of visits to Jordan");
+numofvisits = parseInt(customerAge)
+
+var i;
+for (i = 0; i <numofvisits ; i++) {document.write("<img src='jordan5.jpg' >")}
+
+  
+>>>>>>> 251c566a2398773103b105fc2eabb04e8db07c00
 
 
 
